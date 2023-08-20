@@ -3,10 +3,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'lime': '#1fb6ff',
+        lime: '#1fb6ff',
       },
       fontFamily: {
-        sans: ['Inter var, sans-serif'],
+        sans: ['Open Sans, sans-serif'],
       },
     },
   },

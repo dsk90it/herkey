@@ -1,10 +1,11 @@
+import MainLayout from './layout/MainLayout'
 import Home from './pages/Home'
 
 function App() {
   return (
-    <main className="mx-auto px-4">
+    <MainLayout>
       <Home />
-    </main>
+    </MainLayout>
   )
 }
 
