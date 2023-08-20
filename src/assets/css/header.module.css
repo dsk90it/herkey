@@ -1,0 +1,20 @@
+.appHeader {
+  @apply sticky w-full px-4 py-2 min-h-[4rem] flex items-center shadow-[0_0_8px_0_#c2c2c2] bg-white justify-between gap-4;
+}
+
+.appHeader_Logo {
+  @apply flex flex-1 justify-between flex-row-reverse gap-1 lg:w-1/5 lg:flex-initial lg:flex-row;
+}
+.appHeader_Logo a {
+  @apply mr-auto lg:mr-0;
+}
+.appHeader_Logo a img {
+  @apply w-auto h-8;
+}
+.appHeader_Logo button {
+  @apply leading-none rotate-180 mr-auto lg:mr-0;
+}
+
+.appHeader_Menu {
+  @apply hidden mr-auto gap-4 uppercase text-black pl-6 lg:inline-flex;
+}

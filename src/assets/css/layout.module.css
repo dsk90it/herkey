@@ -1,0 +1,6 @@
+.wrapper {
+  @apply flex w-full h-[calc(100vh-64px)];
+}
+.wrapperContent {
+  @apply flex-1 flex-shrink-0;
+}

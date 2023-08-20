@@ -1,3 +1,4 @@
+import LayoutStyles from '../assets/css/layout.module.css'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
 
@@ -6,9 +7,9 @@ function MainLayout({ children }) {
     <>
       <Header />
 
-      <main>
+      <main className={LayoutStyles.wrapper}>
         <Sidebar />
-        {children}
+        <div className={LayoutStyles.wrapperContent}>{children}</div>
       </main>
     </>
   )

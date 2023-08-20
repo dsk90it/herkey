@@ -1,6 +1,6 @@
 const defaultIconClass = `w-6 h-6`
 
-export const IconMenu = ({ iconClass = defaultIconClass }) => {
+export const IconMenu = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ export const IconMenu = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -19,7 +19,7 @@ export const IconMenu = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconMenu2 = ({ iconClass = defaultIconClass }) => {
+export const IconMenu2 = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ export const IconMenu2 = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -38,7 +38,7 @@ export const IconMenu2 = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconEdit = ({ iconClass = defaultIconClass }) => {
+export const IconEdit = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export const IconEdit = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -57,7 +57,7 @@ export const IconEdit = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconGrid = ({ iconClass = defaultIconClass }) => {
+export const IconGrid = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ export const IconGrid = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -76,7 +76,7 @@ export const IconGrid = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconBriefCase = ({ iconClass = defaultIconClass }) => {
+export const IconBriefCase = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export const IconBriefCase = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -95,7 +95,7 @@ export const IconBriefCase = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconDocument = ({ iconClass = defaultIconClass }) => {
+export const IconDocument = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ export const IconDocument = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -114,7 +114,7 @@ export const IconDocument = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconGroup = ({ iconClass = defaultIconClass }) => {
+export const IconGroup = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +122,7 @@ export const IconGroup = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -133,7 +133,7 @@ export const IconGroup = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconPeople = ({ iconClass = defaultIconClass }) => {
+export const IconPeople = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +141,7 @@ export const IconPeople = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -152,7 +152,7 @@ export const IconPeople = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconUser = ({ iconClass = defaultIconClass }) => {
+export const IconUser = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -160,7 +160,7 @@ export const IconUser = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -171,7 +171,7 @@ export const IconUser = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconWallet = ({ iconClass = defaultIconClass }) => {
+export const IconWallet = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +179,7 @@ export const IconWallet = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -190,7 +190,7 @@ export const IconWallet = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconOffice = ({ iconClass = defaultIconClass }) => {
+export const IconOffice = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ export const IconOffice = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -209,7 +209,7 @@ export const IconOffice = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconArrow = ({ iconClass = defaultIconClass }) => {
+export const IconArrow = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@ export const IconArrow = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"
@@ -228,7 +228,7 @@ export const IconArrow = ({ iconClass = defaultIconClass }) => {
   )
 }
 
-export const IconChevron = ({ iconClass = defaultIconClass }) => {
+export const IconChevron = ({ iconClass }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +236,7 @@ export const IconChevron = ({ iconClass = defaultIconClass }) => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className={iconClass}
+      className={`${defaultIconClass} ${iconClass}`}
     >
       <path
         strokeLinecap="round"

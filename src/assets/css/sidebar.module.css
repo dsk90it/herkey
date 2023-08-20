@@ -1,0 +1,3 @@
+.sidebar {
+  @apply absolute inset-0 top-16 flex bg-neutral-700 text-white lg:w-[21%] lg:relative lg:top-0  transition-all duration-[0.3s];
+}
