@@ -2,6 +2,7 @@ import { useState } from 'react'
 import LayoutStyles from '../assets/css/layout.module.css'
 import Header from '../components/Header'
 import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
 
 function MainLayout({ children }) {
   const [isSidebarOpen, setSidebarOpen] = useState(true)
@@ -18,6 +19,8 @@ function MainLayout({ children }) {
           }`}
         >
           {children}
+
+          <Footer />
         </div>
       </main>
     </>
