@@ -11,7 +11,7 @@ function Card({ handleClick, title, children }) {
           className="text-accent-lime"
           type="button"
         >
-          <IconEdit iconClass={'w-5 h-5'} />
+          <IconEdit iconClass="w-5 h-5" />
         </button>
       </div>
 
