@@ -1,5 +1,5 @@
 .wrapper {
-  @apply flex w-full h-screen bg-[#F1F2F7];
+  @apply flex w-full min-h-0 h-full bg-[#F1F2F7];
 }
 .content {
   @apply flex flex-col flex-1 flex-shrink-0 lg:ml-[21%] px-4 pt-20 lg:px-6;

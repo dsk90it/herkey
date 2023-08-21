@@ -4,7 +4,7 @@ function LabelText({ label, children }) {
   return (
     <div className={LabelStyles.wrapper}>
       <span className={LabelStyles.title}>{label}</span>
-      <div className={LabelStyles.content}>{children}</div>
+      {children && <div className={LabelStyles.content}>{children}</div>}
     </div>
   )
 }

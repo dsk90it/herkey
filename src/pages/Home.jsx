@@ -4,6 +4,7 @@ import Card from '../components/Card'
 import LabelText from '../components/LabelText'
 import Avatar from '../components/Avatar'
 import AvatarImg from '../assets/images/user.png'
+import Radio from '../components/Radio'
 
 function Home() {
   return (
@@ -45,8 +46,42 @@ function Home() {
         </Card>
 
         <div className={HomeStyles.grids}>
-          <Card title="My Account Settings">content</Card>
-          <Card title={'Application Settings'}>hello</Card>
+          <Card title="My Account Settings">
+            <div className="grid gap-2 sm:gap-4 sm:grid-cols-2">
+              <LabelText label="Full Name *">Divya Chatterjee</LabelText>
+              <LabelText label="Designation">Assistant Manager - HR</LabelText>
+              <LabelText label="Phone / Landline">7012248563</LabelText>
+              <LabelText label={<>&nbsp;</>}>
+                <a
+                  href="#"
+                  className="text-blue-500 font-semibold leading-none"
+                >
+                  Change Password
+                </a>
+              </LabelText>
+            </div>
+          </Card>
+
+          <Card title={'Application Settings'}>
+            <LabelText label="Receive job applications via" />
+
+            <Radio
+              name={'default-radio'}
+              id={'radio-1'}
+              label={'Only on my dashboard'}
+            />
+            <Radio
+              name={'default-radio'}
+              id={'radio-2'}
+              label={'Email and on my dashboard'}
+            />
+
+            <LabelText
+              label={
+                '*Please note, this setting will not impact your old job postings'
+              }
+            />
+          </Card>
         </div>
       </section>
     </>
