@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        lime: '#1fb6ff',
+        'accent-lime': '#99CA3B',
       },
       fontFamily: {
         sans: ['Open Sans, sans-serif'],
