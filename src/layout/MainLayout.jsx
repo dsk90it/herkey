@@ -13,8 +13,9 @@ function MainLayout({ children }) {
 
       <main className={LayoutStyles.wrapper}>
         <Sidebar isOpen={isSidebarOpen} />
+
         <div
-          className={`${LayoutStyles.wrapperContent} ${
+          className={`${LayoutStyles.content} ${
             !isSidebarOpen ? LayoutStyles.expand : ''
           }`}
         >

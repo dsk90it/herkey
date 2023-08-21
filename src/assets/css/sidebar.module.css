@@ -1,10 +1,8 @@
 .sidebar {
   @apply absolute top-16 bottom-0 right-0 left-0 w-full flex flex-col bg-neutral-700 text-white overflow-y-auto lg:w-[21%] lg:-left-[21%] transition-all duration-[0.3s];
-
-  /* open */
-  &.open {
-    @apply -left-full lg:left-0;
-  }
+}
+.sidebar.open {
+  @apply -left-full lg:left-0;
 }
 
 .header {
@@ -36,11 +34,10 @@
 }
 .menuItem {
   @apply inline-flex items-center gap-4 py-2 px-4 text-zinc-400 w-full border-l-4 border-l-transparent transition-all duration-300;
-
-  &:hover,
-  &.active {
-    @apply text-accent-lime border-l-accent-lime bg-[#313136];
-  }
+}
+.menuItem:hover,
+.menuItem.active {
+  @apply text-accent-lime border-l-accent-lime bg-[#313136];
 }
 
 .footer {

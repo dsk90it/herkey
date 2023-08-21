@@ -1,10 +1,17 @@
 .wrapper {
-  @apply flex w-full h-[calc(100vh-64px)];
+  @apply flex w-full h-[calc(100vh-64px)] bg-[#F1F2F7];
 }
-.wrapperContent {
+.content {
   @apply flex flex-col flex-1 flex-shrink-0 lg:ml-[21%] px-4 pt-6 lg:px-6;
+}
+.content.expand {
+  @apply ml-0;
+}
 
-  &.expand {
-    @apply ml-0;
-  }
+/* footer */
+.footer {
+  @apply flex text-xs text-gray-400 justify-between mt-auto bg-white p-4 shadow-[0_0_8px_0_#c2c2c2] -mx-4 lg:-mx-6;
+}
+.footer ul {
+  @apply inline-flex gap-4 font-semibold;
 }
