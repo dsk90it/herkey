@@ -1,0 +1,9 @@
+.wrapper {
+  @apply flex items-center justify-center w-20 h-20 lg:w-28 lg:h-28 border rounded-full relative;
+}
+.image {
+  @apply rounded-full object-cover object-top w-[4.5rem] h-[4.5rem] lg:w-[6.5rem] lg:h-[6.5rem];
+}
+.btn {
+  @apply rounded-full inline-flex items-center justify-center bg-white border w-6 h-6 absolute -bottom-1 -right-1 z-[1] text-accent-lime lg:bottom-[0] lg:right-[0];
+}

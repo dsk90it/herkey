@@ -1,0 +1,9 @@
+.wrapper {
+  @apply flex flex-col w-full text-xs pb-3 gap-y-1;
+}
+.title {
+  @apply text-gray-400;
+}
+.content {
+  @apply flex flex-col w-full gap-y-2;
+}

@@ -1,9 +1,10 @@
+import CardStyles from '../assets/css/card.module.css'
 import { IconEdit } from './Icons'
 
 function Card({ handleClick, title, children }) {
   return (
-    <article className="block w-full">
-      <div className="flex items-center justify-between gap-2 p-4 bg-gray-100 font-semibold text-sm">
+    <article className={CardStyles.wrapper}>
+      <div className={CardStyles.header}>
         {title}
         <button
           onClick={handleClick}
@@ -14,9 +15,7 @@ function Card({ handleClick, title, children }) {
         </button>
       </div>
 
-      <section className="p-4 border-t border-b lg:rounded-b-sm lg:border-l lg:border-r">
-        {children}
-      </section>
+      <section className={CardStyles.content}>{children}</section>
     </article>
   )
 }

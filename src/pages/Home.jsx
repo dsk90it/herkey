@@ -2,6 +2,8 @@ import { IconArrow } from '../components/Icons'
 import HomeStyles from '../assets/css/home.module.css'
 import Card from '../components/Card'
 import LabelText from '../components/LabelText'
+import Avatar from '../components/Avatar'
+import AvatarImg from '../assets/images/user.png'
 
 function Home() {
   return (
@@ -23,6 +25,14 @@ function Home() {
         </div>
 
         <Card title="My Profile">
+          <div className="flex items-start gap-x-4 lg:gap-x-8">
+            <Avatar url={AvatarImg} name={'Divya Chatterjee'} />
+            <div>
+              <p className="text-lg font-semibold pb-3">Divya Chatterjee</p>
+              <LabelText label="Designation">Assistant Manager - HR</LabelText>
+              <LabelText label="Company Name">XXY Company Name</LabelText>
+            </div>
+          </div>
           <LabelText label="About Me">
             Microsoft enables digital transformation for the era of an
             intelligent cloud and an intelligent edge. Its mission is to empower

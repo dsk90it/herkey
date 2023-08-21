@@ -1,5 +1,5 @@
 .appHeader {
-  @apply sticky w-full px-4 py-2 min-h-[4rem] flex items-center shadow-[0_0_8px_0_#c2c2c2] bg-white justify-between gap-4;
+  @apply fixed w-full px-4 py-2 min-h-[4rem] flex items-center shadow-[0_0_8px_0_#c2c2c2] bg-white justify-between gap-4 z-20;
 }
 
 .appHeader_Logo {
