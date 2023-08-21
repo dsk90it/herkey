@@ -12,7 +12,13 @@ function MainLayout({ children }) {
 
       <main className={LayoutStyles.wrapper}>
         <Sidebar isOpen={isSidebarOpen} />
-        <div className={LayoutStyles.wrapperContent}>{children}</div>
+        <div
+          className={`${LayoutStyles.wrapperContent} ${
+            !isSidebarOpen ? LayoutStyles.expand : ''
+          }`}
+        >
+          {children}
+        </div>
       </main>
     </>
   )

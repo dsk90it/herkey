@@ -1,5 +1,5 @@
 .sidebar {
-  @apply absolute top-16 bottom-0 right-0 left-0 w-full flex flex-col bg-neutral-700 text-white overflow-y-auto lg:w-[21%] lg:relative lg:top-0 lg:-left-[21%] transition-all duration-[0.3s];
+  @apply absolute top-16 bottom-0 right-0 left-0 w-full flex flex-col bg-neutral-700 text-white overflow-y-auto lg:w-[21%] lg:-left-[21%] transition-all duration-[0.3s];
 
   /* open */
   &.open {
